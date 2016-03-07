@@ -40,20 +40,15 @@
 
 /* END HEADER */
 .contentsection {
+	position: relative;
 	background-color: #CC3300;
 	color: #FFFF99;
 	border: 1px solid black;
-	overflow-y:auto;
 	padding: 10px;
+	margin: 0 auto 15px;
 }
-.contentsection-tile span {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  font-size: 1.2em;
-  background-color: #000;
-  color: #fff;
-  opacity: .8;
+
+.contentsection  a {
+	color: blue;
 }
+
